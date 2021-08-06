@@ -1,0 +1,100 @@
+ibrahim.diawara@DCIREODCPR21 MINGW64 ~
+$ git --version
+git version 2.32.0.windows.2
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 ~
+$ cd D:/
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d
+$ mkdir Projetgit
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d
+$ touch lisezmoi.txt
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/   Projetgit/  'System Volume Information'/   lisezmoi.txt
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d
+$ cd
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 ~
+$ cd Projetgit
+bash: cd: Projetgit: No such file or directory
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/               Modèles@                                                                                       Pictures/                 'Voisinage réseau'@
+ AppData/             Favorites/               Music/                                                                                         Recent@                    ntuser.dat.LOG1
+'Application Data'@   IntelGraphicsProfiles/   NTUSER.DAT                                                                                    'Saved Games'/              ntuser.dat.LOG2
+ Contacts/            Links/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Searches/                  ntuser.ini
+ Cookies@            'Local Settings'@         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   SendTo@
+ Desktop/            'Menu Démarrer'@          NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Videos/
+ Documents/          'Mes documents'@          OneDrive/                                                                                     "Voisinage d'impression"@
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 ~
+$ cd D:/
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d
+$ *ls
+bash: *ls: command not found
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/   Projetgit/  'System Volume Information'/
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d
+$ cd Projetgit/
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit
+$ touch lisezmoi.txt
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit
+$ git init
+Initialized empty Git repository in D:/Projetgit/.git/
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit (master)
+$ git add .
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit (master)
+$ git commit -m "Mon premier projet"
+[master (root-commit) 10e1526] Mon premier projet
+ Committer: Ibrahim Diawara <ibrahim.diawara@odc.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lisezmoi.txt
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit (master)
+$ git remote add origin https://github.com/diawara9412/Projetgit.git
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit (master)
+$ git remote -v
+origin  https://github.com/diawara9412/Projetgit.git (fetch)
+origin  https://github.com/diawara9412/Projetgit.git (push)
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit (master)
+$ ls
+lisezmoi.txt
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/diawara9412/Projetgit.git
+ * [new branch]      master -> master
+
+ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit (master)
+$
