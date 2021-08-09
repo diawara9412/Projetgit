@@ -11,44 +11,6 @@ $ mkdir Projetgit
 ibrahim.diawara@DCIREODCPR21 MINGW64 /d
 $ touch lisezmoi.txt
 
-ibrahim.diawara@DCIREODCPR21 MINGW64 /d
-$ ls
-'$RECYCLE.BIN'/   Projetgit/  'System Volume Information'/   lisezmoi.txt
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 /d
-$ cd
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 ~
-$ cd Projetgit
-bash: cd: Projetgit: No such file or directory
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 ~
-$ ls
-'3D Objects'/         Downloads/               Modèles@                                                                                       Pictures/                 'Voisinage réseau'@
- AppData/             Favorites/               Music/                                                                                         Recent@                    ntuser.dat.LOG1
-'Application Data'@   IntelGraphicsProfiles/   NTUSER.DAT                                                                                    'Saved Games'/              ntuser.dat.LOG2
- Contacts/            Links/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Searches/                  ntuser.ini
- Cookies@            'Local Settings'@         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   SendTo@
- Desktop/            'Menu Démarrer'@          NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Videos/
- Documents/          'Mes documents'@          OneDrive/                                                                                     "Voisinage d'impression"@
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 ~
-$ cd D:/
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 /d
-$ *ls
-bash: *ls: command not found
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 /d
-$ ls
-'$RECYCLE.BIN'/   Projetgit/  'System Volume Information'/
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 /d
-$ cd Projetgit/
-
-ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit
-$ touch lisezmoi.txt
-
 ibrahim.diawara@DCIREODCPR21 MINGW64 /d/Projetgit
 $ git init
 Initialized empty Git repository in D:/Projetgit/.git/
